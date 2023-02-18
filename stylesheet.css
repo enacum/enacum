@@ -129,7 +129,21 @@ main {
   padding: 30px 50px;
   height: 624px;
 }
+@media screen and (max-width: 960px) {
+  main {
+    max-width: 960px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main {
+    max-width: 480px;
+  }
+}
 
+.section-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .section-title a {
   position: relative;
   padding-left: 13px;
@@ -163,18 +177,31 @@ main {
   position: relative;
   width: 100%;
 }
+.contents-box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
 .contents-item {
-  float: left;
-  margin: 10px 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 42%;
+  box-sizing: border-box;
 }
 .contents-item img {
-  width: 180px;
+  width: 100%;
   border-radius: 10px;
 }
 .contents-item p {
-  font-size: 15px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 480px) {
+.contents-item {
+  width: 30%;
+}
 }
 
 .notes {
@@ -182,14 +209,20 @@ main {
   width: 100%;
   clear: both;
 }
+.article-box {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
 .article {
   float: left;
-  height: 80px;
-  width: 20%;
+  height: 130px;
+  width: 100%;
   background-color: #f7f6fb;
+  margin: 10px;
   border-radius: 30px;
-  padding: 25px;
-  margin: 10px 20px 20px 20px;
+  box-sizing: border-box;
 }
 .article p {
   color: #898989;
@@ -200,16 +233,19 @@ main {
   font-size: 13px;
 }
 .article a {
+  display: block;
+  padding: 25px;
   text-decoration: none;
 }
 .article-empty {
-  height: 80px;
-  width: 20%;
-  background-color: #fafdff;
-  border-radius: 30px;
-  padding: 25px;
   float: left;
-  margin: 10px 20px;
+  height: 130px;
+  width: 100%;
+  background-color: #fafdff;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 30px;
+  box-sizing: border-box;
 }
 .article-empty p {
   color: #898989;
@@ -219,6 +255,11 @@ main {
   color: #898989;
   font-size: 13px;
   font-weight: lighter;
+}
+@media screen and (min-width: 480px) {
+.article, .article-empty {
+  width: 30%;
+}
 }
 
 footer {
