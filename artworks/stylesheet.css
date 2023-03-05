@@ -144,6 +144,17 @@ main {
 h1 {
   font-size: 25px;
 }
+.tag {
+  font-size: 15px;
+  margin-bottom: 0;
+  font-weight: bold;
+  display: flex;
+  gap: 1rem;
+}
+.tag a, h1 {
+  text-decoration: none;
+  color: #202020;
+}
 h2 {
   font-size: 20px;
   padding-left: 5px;
