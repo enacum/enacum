@@ -152,6 +152,19 @@ h1 {
   grid-template-columns: 120px auto;
   grid-column-gap: 4rem;
 }
+@media screen and (max-width: 960px) {
+  .post {
+    grid-template-columns: 70px auto;
+    grid-column-gap: 4rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .post {
+    display: grid;
+    grid-template-columns: 70px auto;
+    grid-column-gap: 2rem;
+  }
+}
 .infomation p {
   color: #47484D;
   font-size: 18px;
@@ -182,6 +195,12 @@ h1 {
   line-height: 16px;
   margin: 0;
   color: black;
+}
+@media screen and (max-width: 480px) {
+  .content a {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
 }
 .post h2 {
   font-size: 16px;
