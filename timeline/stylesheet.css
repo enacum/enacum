@@ -169,18 +169,23 @@ h1 {
   color: #47484D;
   font-size: 18px;
 }
-.tag {
+.tag, .genre {
   font-size: 14px;
-  color: #CD859F;
   font-weight: bold;
   border-radius: 30px;
 }
+.tag {
+  color: #CD859F;
+}
 .genre {
-  font-size: 14px;
-  color: #898989;
-  font-weight: bold;
-  border-radius: 30px;
   padding-top: 2px
+}
+.genre span {
+ font-weight: normal;
+ color: #898989;
+}
+.genre a {
+  text-decoration: none;
 }
 
 .content {
