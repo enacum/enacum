@@ -178,7 +178,7 @@ main {
   position: relative;
   width: 100%;
 }
-a {
+.artworks a {
   text-decoration: none;
 }
 .contents-box {
