@@ -157,23 +157,42 @@ h2 {
   align-items: flex-start;
 }
 .contents-item {
-  padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  width: 42%;
+  width: 30%;
   box-sizing: border-box;
+  background-color: #202020;
+  color: white;
 }
 .contents-item img {
   width: 100%;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-.contents-item p {
-  margin-bottom: 0;
+.series-tag {
+  font-size: 13px;
+  display: flex;
+  gap: 0.5rem;
 }
-@media screen and (min-width: 480px) {
-.contents-item {
-  width: 30%;
+.series-tag, h3, .date {
+  padding-left: 15px;
 }
+#KAMIN span {
+  color: #e0ffff;
+}
+#LASTALL span {
+  color: #ff8c00;
+}
+#EEP span {
+  color: #0000cd
+}
+h3 {
+  font-size: 15px;
+  margin-top: 0;
+}
+.date {
+  font-weight: lighter;
+  font-size: 13px;
 }
 
 footer {
