@@ -178,9 +178,6 @@ main {
   position: relative;
   width: 100%;
 }
-.contents-box a {
-  text-decoration: none;
-}
 .contents-box {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -195,6 +192,7 @@ main {
   box-sizing: border-box;
   background-color: #202020;
   color: white;
+  text-decoration: none;
 }
 @media screen and (max-width: 480px) {
   .contents-item {
