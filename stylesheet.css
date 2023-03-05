@@ -178,6 +178,9 @@ main {
   position: relative;
   width: 100%;
 }
+a {
+  text-decoration: none;
+}
 .contents-box {
   padding-top: 10px;
   padding-bottom: 10px;
