@@ -185,6 +185,9 @@ main {
   flex-wrap: wrap;
   align-items: flex-start;
 }
+.contents-item a {
+  text-decoration: none;
+}
 .contents-item {
   margin: 10px;
   border-radius: 10px;
@@ -192,7 +195,6 @@ main {
   box-sizing: border-box;
   background-color: #202020;
   color: white;
-  text-decoration: none;
 }
 @media screen and (max-width: 480px) {
   .contents-item {
